@@ -1,0 +1,52 @@
+Command Line Interface is starting up, please wait ...
+
+   Welcome to the Platform Command Line Interface
+
+VMware Installation:
+	2 vCPU: Intel(R) Xeon(R) CPU E5-2660 v3 @ 2.60GHz
+	Disk 1: 80GB, Partitions aligned
+	6144 Mbytes RAM
+	WARNING: Ungraceful shutdown detected - A rebuild of this node is highly recommended
+	to ensure no negative impact(such as configuration or file system corruption). For
+	rebuild instructions, see the installation guide.
+
+
+
+================================================================================
+
+:::Command::: utils dbreplication runtimestate
+
+utils dbreplication runtimestate
+
+Server Time: Mon Jan  6 01:48:11 PST 2025
+
+Cluster Replication State: Replication status command started at: 2023-08-17-22-25
+     Replication status command ENDED. Checked 743 tables out of 743
+     Last Completed Table: devicenumplanmapremdestmap
+     No Errors or Mismatches found.
+
+     Use 'file view activelog cm/trace/dbl/sdi/ReplicationStatus.2023_08_17_22_25_04.out' to see the details
+
+
+DB Version: ccm12_5_1_15900_66
+
+Repltimeout set to: 300s
+PROCESS option set to: 1
+
+
+Cluster Detailed View from ucmpub (3 Servers):
+
+                                      PING      DB/RPC/   REPL.    Replication    REPLICATION SETUP
+SERVER-NAME         IP ADDRESS        (msec)    DbMon?    QUEUE    Group ID       (RTMT) & Details
+-----------         ----------        ------    -------   -----    -----------    ------------------
+ucmpub              10.1.1.2     0.017     Y/Y/Y     0        (g_2)          (2) Setup Completed
+ucmsub2             10.1.1.3     0.435     Y/Y/N     --       (-)            (-) Out Of Sync
+ucmsub1             10.1.1.4     0.167     Y/Y/Y     0        (g_3)          (3) Out Of Sync
+ 
+
+
+ 
+
+
+================================================================================
+
